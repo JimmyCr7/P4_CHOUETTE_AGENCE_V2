@@ -1,0 +1,220 @@
+body {
+  margin: 0px;
+  padding: 0px; }
+
+h1, h2, h3, a, p, label, input, textarea {
+  font-family: 'Raleway', 'Arial'; }
+
+div.conteneurLargeurResponsive {
+  width: 60%;
+  margin: auto; }
+
+div#boxContact1, div#boxContact2, div#boxPresentation, div#boxPresentationMethodes, div#boxTypesProjet {
+  padding: 50px 0px;
+  text-align: center; }
+  div#boxContact1 > div.conteneurLargeurResponsive, div#boxContact2 > div.conteneurLargeurResponsive, div#boxPresentation > div.conteneurLargeurResponsive, div#boxPresentationMethodes > div.conteneurLargeurResponsive, div#boxTypesProjet > div.conteneurLargeurResponsive {
+    width: 60%;
+    text-align: center; }
+
+i.fas, i.far {
+  display: inline-block;
+  font-size: 350%;
+  color: #f3976c; }
+
+h1, h2, h3 {
+  color: #f3976c;
+  font-weight: bolder; }
+
+h1 {
+  font-size: 1.9em; }
+
+h2 {
+  font-size: 1.7em; }
+
+h3 {
+  font-size: 1.5em; }
+
+a, p {
+  font-size: 1.3em;
+  font-weight: normal; }
+
+img {
+  object-fit: cover; }
+
+a.lienBtnContact {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f3976c;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }
+
+header {
+  padding: 15px 0px; }
+  header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto; }
+    header > div img {
+      width: 42%; }
+    header > div > * {
+      flex: 1; }
+    header > div > div {
+      text-align: left; }
+    header > div > nav {
+      text-align: right; }
+      header > div > nav > ul {
+        padding: 0px; }
+        header > div > nav > ul > li {
+          list-style: none;
+          display: inline-block;
+          margin: 0px 15px; }
+        header > div > nav > ul a {
+          color: black;
+          text-decoration: none; }
+
+div#boxContact1, div#boxContact2 {
+  background-image: url("../IMAGES/la-chouette-agence-banniere.jpg");
+  background-attachment: fixed;
+  background-position: top; }
+
+div#boxContact1 h1 {
+  color: white; }
+
+div#boxListeMethodes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  div#boxListeMethodes > div {
+    text-align: center;
+    width: 30%; }
+
+div#boxListeProjets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  div#boxListeProjets img {
+    width: 100%;
+    object-fit: cover; }
+  div#boxListeProjets > div {
+    width: 45%;
+    margin-bottom: 30px; }
+
+div#boxPresentation {
+  background-image: url("../IMAGES/image-de-presentation.png");
+  background-attachment: fixed;
+  background-position: top; }
+  div#boxPresentation a {
+    font-weight: bold;
+    color: black; }
+  div#boxPresentation p {
+    color: black;
+    font-weight: bold; }
+
+div#boxContact2 p {
+  color: white;
+  font-weight: bold; }
+
+footer {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #f3976c; }
+  footer div#iconsFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto; }
+    footer div#iconsFooter > a {
+      display: inline-block;
+      width: 20%; }
+      footer div#iconsFooter > a > i {
+        font-size: 150%;
+        color: #f0f0f0; }
+        footer div#iconsFooter > a > i:hover {
+          color: white; }
+
+div.conteneurLiensFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left; }
+  div.conteneurLiensFooter > div > ul {
+    padding: 0px; }
+  div.conteneurLiensFooter li {
+    list-style: none; }
+    div.conteneurLiensFooter li > a {
+      color: black;
+      text-decoration: none; }
+
+div#boxPresentationContact, div#boxFormContact {
+  padding: 25px 0px; }
+
+div#boxPresentationContact {
+  background-color: #f3976c;
+  text-align: center; }
+  div#boxPresentationContact p {
+    color: white;
+    font-weight: bold; }
+
+div#boxFormContact input[type="submit"] {
+  color: white;
+  padding: 15px;
+  background-color: #f3976c;
+  margin-top: 15px;
+  font-weight: bold; }
+div#boxFormContact label {
+  font-weight: bold; }
+div#boxFormContact label, div#boxFormContact input, div#boxFormContact textarea {
+  font-size: 1.3em; }
+div#boxFormContact .styleFormInput {
+  display: block;
+  margin: 5px 0px;
+  width: 50%;
+  -webkit-transition-property: border;
+  -moz-transition-property: border;
+  transition-property: border;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+  div#boxFormContact .styleFormInput:focus {
+    outline: none;
+    border: 2px solid #f3976c; }
+
+@media (max-width: 576px) {
+  div.conteneurLargeurResponsive {
+    width: 95%; }
+
+  header img {
+    width: 100% !important; }
+
+  div#boxListeMethodes {
+    flex-direction: column; }
+    div#boxListeMethodes > div {
+      width: 100%; }
+
+  div#boxListeProjets {
+    flex-direction: column; }
+    div#boxListeProjets > div {
+      width: 100%; }
+
+  footer div#iconsFooter {
+    width: 100%; }
+
+  div.conteneurLiensFooter {
+    text-align: left;
+    flex-direction: column; }
+    div.conteneurLiensFooter > div {
+      width: 95%; } }
+@media (min-width: 579px) and (max-width: 1200px) {
+  div.conteneurLargeurResponsive {
+    width: 80%; } }
+
+/*# sourceMappingURL=main.css.map */

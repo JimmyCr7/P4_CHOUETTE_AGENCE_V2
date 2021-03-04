@@ -1,0 +1,1 @@
+body{margin:0px;padding:0px}div.conteneurLargeurResponsive{width:60%;margin:auto}header{display:flex;flex-direction:row;border:1px solid black}header img{display:inline-block}header>div>div{text-align:left}header>div>nav{text-align:right}header>div>*{flex:1}footer{display:flex;flex-direction:row}
