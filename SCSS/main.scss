@@ -8,7 +8,7 @@ h1, h2, h3, a, p, label, input, textarea{
 }
 
 div.conteneurLargeurResponsive{
-	width: 60%;
+	width: 50%;
 	margin: auto;
 }
 
@@ -328,6 +328,15 @@ div#boxFormContact{
 		}
 	}
 	//FIN LISTE PROJETS
+
+	//BOX FORM
+	div#boxFormContact{
+
+		input, textarea{
+			width: 95% !important;
+		}
+	}
+	//FIN BOX FORM
 
 	//FOOTER
 	footer{

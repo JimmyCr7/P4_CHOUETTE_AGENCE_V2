@@ -6,7 +6,7 @@ h1, h2, h3, a, p, label, input, textarea {
   font-family: 'Raleway', 'Arial'; }
 
 div.conteneurLargeurResponsive {
-  width: 60%;
+  width: 50%;
   margin: auto; }
 
 div#boxContact1, div#boxContact2, div#boxPresentation, div#boxPresentationMethodes, div#boxTypesProjet {
@@ -204,6 +204,9 @@ div#boxFormContact .styleFormInput {
     flex-direction: column; }
     div#boxListeProjets > div {
       width: 100%; }
+
+  div#boxFormContact input, div#boxFormContact textarea {
+    width: 95% !important; }
 
   footer div#iconsFooter {
     width: 100%; }
