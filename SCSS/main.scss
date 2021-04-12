@@ -1,7 +1,23 @@
+@font-face{
+	font-family: Raleway;
+	src: url(../FONTS/RalewayLight.ttf);
+}
+
 body{
 	margin: 0px;
 	padding: 0px;
 }
+
+img.iconMethode{
+	width: 20%;
+}
+
+/*
+img.iconSocial{
+	width: 15px;
+	height: 15px;
+}
+*/
 
 h1, h2, h3, a, p, label, input, textarea{
 	font-family: 'Raleway', 'Arial';
@@ -22,11 +38,13 @@ div#boxContact1, div#boxContact2, div#boxPresentation, div#boxPresentationMethod
 	}
 }
 
+/*
 i.fas, i.far{
 	display: inline-block;
 	font-size: 350%;
 	color: #f3976c;
 }
+*/
 
 h1, h2, h3{
 	color: #f3976c;
@@ -196,13 +214,14 @@ footer{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		width: 50%;
+		width: 30%;
 		margin: auto;
 
 		> a{
 			display: inline-block;
 			width: 20%;
 
+			/*
 			> i{
 				font-size: 150%;
 				color: #f0f0f0;
@@ -211,6 +230,7 @@ footer{
 					color: white;
 				}
 			}
+			*/
 		}
 	}
 }
