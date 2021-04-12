@@ -32,11 +32,11 @@ div#boxContact1, div#boxContact2, div#boxPresentation, div#boxPresentationMethod
 i.fas, i.far{
 	display: inline-block;
 	font-size: 350%;
-	color: #f3976c;
+	color: #3f51b5;
 }
 */
 h1, h2, h3 {
-  color: #f3976c;
+  color: #3f51b5;
   font-weight: bolder; }
 
 h1 {
@@ -58,7 +58,7 @@ img {
 a.lienBtnContact {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #f3976c;
+  background-color: #3f51b5;
   color: white;
   font-size: 1.2em;
   text-decoration: none;
@@ -139,7 +139,8 @@ div#boxContact2 p {
 footer {
   text-align: center;
   padding: 10px 0px;
-  background-color: #f3976c; }
+  background-color: #3f51b5;
+  color: #fff; }
   footer div#iconsFooter {
     display: flex;
     flex-direction: row;
@@ -164,20 +165,23 @@ div.conteneurLiensFooter {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  text-align: left; }
+  text-align: left;
+  color: #fff; }
   div.conteneurLiensFooter > div > ul {
     padding: 0px; }
   div.conteneurLiensFooter li {
     list-style: none; }
     div.conteneurLiensFooter li > a {
-      color: black;
+      color: #fff;
       text-decoration: none; }
+  div.conteneurLiensFooter p {
+    text-decoration: underline; }
 
 div#boxPresentationContact, div#boxFormContact {
   padding: 25px 0px; }
 
 div#boxPresentationContact {
-  background-color: #f3976c;
+  background-color: #3f51b5;
   text-align: center; }
   div#boxPresentationContact p {
     color: white;
@@ -186,7 +190,7 @@ div#boxPresentationContact {
 div#boxFormContact input[type="submit"] {
   color: white;
   padding: 15px;
-  background-color: #f3976c;
+  background-color: #3f51b5;
   margin-top: 15px;
   font-weight: bold; }
 div#boxFormContact label {
@@ -205,7 +209,7 @@ div#boxFormContact .styleFormInput {
   transition-duration: 0.3s; }
   div#boxFormContact .styleFormInput:focus {
     outline: none;
-    border: 2px solid #f3976c; }
+    border: 2px solid #3f51b5; }
 
 @media (max-width: 576px) {
   div.conteneurLargeurResponsive {
