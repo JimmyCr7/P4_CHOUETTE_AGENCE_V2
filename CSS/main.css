@@ -5,15 +5,6 @@ body {
   margin: 0px;
   padding: 0px; }
 
-img.iconMethode {
-  width: 20%; }
-
-/*
-img.iconSocial{
-	width: 15px;
-	height: 15px;
-}
-*/
 h1, h2, h3, a, p, label, input, textarea {
   font-family: 'Raleway', 'Arial'; }
 
@@ -28,13 +19,6 @@ div#boxContact1, div#boxContact2, div#boxPresentation, div#boxPresentationMethod
     width: 60%;
     text-align: center; }
 
-/*
-i.fas, i.far{
-	display: inline-block;
-	font-size: 350%;
-	color: #3f51b5;
-}
-*/
 h1, h2, h3 {
   color: #3f51b5;
   font-weight: bolder; }
@@ -149,17 +133,7 @@ footer {
     margin: auto; }
     footer div#iconsFooter > a {
       display: inline-block;
-      width: 20%;
-      			/*
-      			> i{
-      				font-size: 150%;
-      				color: #f0f0f0;
-      
-      				&:hover{
-      					color: white;
-      				}
-      			}
-      			*/ }
+      width: 20%; }
 
 div.conteneurLiensFooter {
   display: flex;
@@ -241,6 +215,12 @@ div#boxFormContact .styleFormInput {
       width: 95%; } }
 @media (min-width: 579px) and (max-width: 1200px) {
   div.conteneurLargeurResponsive {
-    width: 80%; } }
+    width: 80%; }
+
+  div.conteneurLiensFooter > div {
+    width: 30% !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; } }
 
 /*# sourceMappingURL=main.css.map */
